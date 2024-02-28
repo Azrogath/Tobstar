@@ -1,0 +1,146 @@
+/* Reset */
+*{margin:0;padding:0;box-sizing: border-box;}
+a{text-decoration: none;}
+ul{list-style-type: none;}
+
+.clearfix:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+
+/* ALLGEMEIN */
+header,
+main,
+footer{
+	width: 980px;
+	margin: auto;
+}
+
+body{
+	background: #082a3a;
+}
+
+header,
+footer{
+	background: #0d4159;
+}
+
+/* HEADER */
+header{
+	height: 120px;
+	padding: 10px 0 0 10px;
+	/* Bezugspunkt für absolute Elemente */
+	position: relative;
+}
+
+header nav{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+/* Navigation */
+#block li{
+	float: left;
+	
+	border-right: 1px solid #e26024;
+}
+
+#block .last{
+	border: none;
+}
+
+#block a{
+	/* Aus a wird ein Blockelement */
+	display: block;
+	
+	/* Größe des "Buttons" */
+	padding: 10px 20px;
+	
+	background: #fff;
+	color: #000;
+}
+
+#block a:hover{
+	background: #e26024;
+	color: #fff;
+}
+
+/* MAIN */
+main{
+	background: #fff;
+	padding: 10px 20px;
+}
+
+h1{
+	font-size: 24px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+article{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e26024;
+}
+
+.last{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin-bottom: 5px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+article a{
+	color: #e26024;
+}
+
+article img{
+	float: right;
+	margin-left: 10px;
+}
+
+/* FOOTER */
+footer{
+	padding: 20px;
+}
+
+/* Inlineliste */
+#inline li{
+	float: left;
+	
+	border-right: 1px solid #fff;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+#inline .last{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#inline a{
+	color: #fff;
+}
+
+#inline a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
